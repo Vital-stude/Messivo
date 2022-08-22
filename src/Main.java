@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void MASSIV(String[] args) {
 
                 int[] arr = new int[3];
                 arr[0] = 1;
@@ -7,7 +7,7 @@ public class Main {
                 arr[2] = 3;
 
                 for (int i = 0; i < 1; i++) {
-                    System.out.print(arr[0] + "\n" + arr[1] + "\n" + arr[2]);
+                    System.out.print(arr[i] + ","+ "  ");
                     System.out.println(" ");
                     for (int y = 2; y >= 0; y--) {
                         System.out.print(arr[y]+"," + " ");
